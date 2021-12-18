@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:backgroundTint="#f2f2f2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:background="#a01214">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Up to ₹500 Cash Bonus per friend"
+            android:gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/idTVCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/border"
+                android:gravity="center|left"
+                android:text="PARTH3607HI"
+                android:textStyle="bold"
+                android:textColor="#505050" />
+
+            <ImageView
+                android:id="@+id/idIVCopy"
+                android:layout_width="26.00dp"
+                android:layout_height="26.00dp"
+                android:layout_alignBottom="@+id/idTVCode"
+                android:layout_alignTop="@+id/idTVCode"
+                android:layout_alignEnd="@+id/idTVCode"
+                android:layout_marginEnd="14dp"
+                app:srcCompat="@drawable/ic_outline_file_copy_24"/>
+
+        </RelativeLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/idBtnInvite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Invite phone contacts"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#0e9f36"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_share"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/idIVWhatsapp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                app:srcCompat="@drawable/whatsapp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:id="@+id/idTVshareOnWp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHARE ON WHATSAPP"
+                android:textStyle="bold"
+                android:textColor="#010101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_share"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/idIVMore"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                app:srcCompat="@drawable/share"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:id="@+id/idTVMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MORE OPTIONS"
+                android:textStyle="bold"
+                android:textColor="#010101"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>
